@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D89CF0CF1B3BFDA30021902C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D89CF0CE1B3BFDA30021902C /* main.m */; };
+		D89CF0D21B3BFDA30021902C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D89CF0D11B3BFDA30021902C /* AppDelegate.m */; };
+		D89CF0D51B3BFDA30021902C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D89CF0D41B3BFDA30021902C /* ViewController.m */; };
+		D89CF0D81B3BFDA40021902C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D89CF0D61B3BFDA40021902C /* Main.storyboard */; };
+		D89CF0DA1B3BFDA40021902C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D89CF0D91B3BFDA40021902C /* Images.xcassets */; };
+		D89CF0DD1B3BFDA40021902C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D89CF0DB1B3BFDA40021902C /* LaunchScreen.xib */; };
+		D89CF0E91B3BFDA40021902C /* TongjiBusHeiHeiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D89CF0E81B3BFDA40021902C /* TongjiBusHeiHeiTests.m */; };
+		D8ABA7771B5B983200CBAEC6 /* TicketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ABA7761B5B983200CBAEC6 /* TicketViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D89CF0E31B3BFDA40021902C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D89CF0C11B3BFDA30021902C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D89CF0C81B3BFDA30021902C;
+			remoteInfo = TongjiBusHeiHei;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D89CF0C91B3BFDA30021902C /* TongjiBusHeiHei.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TongjiBusHeiHei.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D89CF0CD1B3BFDA30021902C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D89CF0CE1B3BFDA30021902C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D89CF0D01B3BFDA30021902C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D89CF0D11B3BFDA30021902C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D89CF0D31B3BFDA30021902C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D89CF0D41B3BFDA30021902C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D89CF0D71B3BFDA40021902C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D89CF0D91B3BFDA40021902C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D89CF0DC1B3BFDA40021902C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D89CF0E21B3BFDA40021902C /* TongjiBusHeiHeiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TongjiBusHeiHeiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D89CF0E71B3BFDA40021902C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D89CF0E81B3BFDA40021902C /* TongjiBusHeiHeiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TongjiBusHeiHeiTests.m; sourceTree = "<group>"; };
+		D8ABA7751B5B983200CBAEC6 /* TicketViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TicketViewController.h; sourceTree = "<group>"; };
+		D8ABA7761B5B983200CBAEC6 /* TicketViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TicketViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D89CF0C61B3BFDA30021902C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D89CF0DF1B3BFDA40021902C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D89CF0C01B3BFDA30021902C = {
+			isa = PBXGroup;
+			children = (
+				D89CF0CB1B3BFDA30021902C /* TongjiBusHeiHei */,
+				D89CF0E51B3BFDA40021902C /* TongjiBusHeiHeiTests */,
+				D89CF0CA1B3BFDA30021902C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D89CF0CA1B3BFDA30021902C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D89CF0C91B3BFDA30021902C /* TongjiBusHeiHei.app */,
+				D89CF0E21B3BFDA40021902C /* TongjiBusHeiHeiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D89CF0CB1B3BFDA30021902C /* TongjiBusHeiHei */ = {
+			isa = PBXGroup;
+			children = (
+				D89CF0D01B3BFDA30021902C /* AppDelegate.h */,
+				D89CF0D11B3BFDA30021902C /* AppDelegate.m */,
+				D89CF0D31B3BFDA30021902C /* ViewController.h */,
+				D89CF0D41B3BFDA30021902C /* ViewController.m */,
+				D8ABA7751B5B983200CBAEC6 /* TicketViewController.h */,
+				D8ABA7761B5B983200CBAEC6 /* TicketViewController.m */,
+				D89CF0D61B3BFDA40021902C /* Main.storyboard */,
+				D89CF0D91B3BFDA40021902C /* Images.xcassets */,
+				D89CF0DB1B3BFDA40021902C /* LaunchScreen.xib */,
+				D89CF0CC1B3BFDA30021902C /* Supporting Files */,
+			);
+			path = TongjiBusHeiHei;
+			sourceTree = "<group>";
+		};
+		D89CF0CC1B3BFDA30021902C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D89CF0CD1B3BFDA30021902C /* Info.plist */,
+				D89CF0CE1B3BFDA30021902C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D89CF0E51B3BFDA40021902C /* TongjiBusHeiHeiTests */ = {
+			isa = PBXGroup;
+			children = (
+				D89CF0E81B3BFDA40021902C /* TongjiBusHeiHeiTests.m */,
+				D89CF0E61B3BFDA40021902C /* Supporting Files */,
+			);
+			path = TongjiBusHeiHeiTests;
+			sourceTree = "<group>";
+		};
+		D89CF0E61B3BFDA40021902C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D89CF0E71B3BFDA40021902C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D89CF0C81B3BFDA30021902C /* TongjiBusHeiHei */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D89CF0EC1B3BFDA40021902C /* Build configuration list for PBXNativeTarget "TongjiBusHeiHei" */;
+			buildPhases = (
+				D89CF0C51B3BFDA30021902C /* Sources */,
+				D89CF0C61B3BFDA30021902C /* Frameworks */,
+				D89CF0C71B3BFDA30021902C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TongjiBusHeiHei;
+			productName = TongjiBusHeiHei;
+			productReference = D89CF0C91B3BFDA30021902C /* TongjiBusHeiHei.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D89CF0E11B3BFDA40021902C /* TongjiBusHeiHeiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D89CF0EF1B3BFDA40021902C /* Build configuration list for PBXNativeTarget "TongjiBusHeiHeiTests" */;
+			buildPhases = (
+				D89CF0DE1B3BFDA40021902C /* Sources */,
+				D89CF0DF1B3BFDA40021902C /* Frameworks */,
+				D89CF0E01B3BFDA40021902C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D89CF0E41B3BFDA40021902C /* PBXTargetDependency */,
+			);
+			name = TongjiBusHeiHeiTests;
+			productName = TongjiBusHeiHeiTests;
+			productReference = D89CF0E21B3BFDA40021902C /* TongjiBusHeiHeiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D89CF0C11B3BFDA30021902C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = TAC;
+				TargetAttributes = {
+					D89CF0C81B3BFDA30021902C = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					D89CF0E11B3BFDA40021902C = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = D89CF0C81B3BFDA30021902C;
+					};
+				};
+			};
+			buildConfigurationList = D89CF0C41B3BFDA30021902C /* Build configuration list for PBXProject "TongjiBusHeiHei" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D89CF0C01B3BFDA30021902C;
+			productRefGroup = D89CF0CA1B3BFDA30021902C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D89CF0C81B3BFDA30021902C /* TongjiBusHeiHei */,
+				D89CF0E11B3BFDA40021902C /* TongjiBusHeiHeiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D89CF0C71B3BFDA30021902C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D89CF0D81B3BFDA40021902C /* Main.storyboard in Resources */,
+				D89CF0DD1B3BFDA40021902C /* LaunchScreen.xib in Resources */,
+				D89CF0DA1B3BFDA40021902C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D89CF0E01B3BFDA40021902C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D89CF0C51B3BFDA30021902C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8ABA7771B5B983200CBAEC6 /* TicketViewController.m in Sources */,
+				D89CF0D51B3BFDA30021902C /* ViewController.m in Sources */,
+				D89CF0D21B3BFDA30021902C /* AppDelegate.m in Sources */,
+				D89CF0CF1B3BFDA30021902C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D89CF0DE1B3BFDA40021902C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D89CF0E91B3BFDA40021902C /* TongjiBusHeiHeiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D89CF0E41B3BFDA40021902C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D89CF0C81B3BFDA30021902C /* TongjiBusHeiHei */;
+			targetProxy = D89CF0E31B3BFDA40021902C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D89CF0D61B3BFDA40021902C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D89CF0D71B3BFDA40021902C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D89CF0DB1B3BFDA40021902C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D89CF0DC1B3BFDA40021902C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D89CF0EA1B3BFDA40021902C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D89CF0EB1B3BFDA40021902C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D89CF0ED1B3BFDA40021902C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TongjiBusHeiHei/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D89CF0EE1B3BFDA40021902C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TongjiBusHeiHei/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D89CF0F01B3BFDA40021902C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TongjiBusHeiHeiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TongjiBusHeiHei.app/TongjiBusHeiHei";
+			};
+			name = Debug;
+		};
+		D89CF0F11B3BFDA40021902C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TongjiBusHeiHeiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TongjiBusHeiHei.app/TongjiBusHeiHei";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D89CF0C41B3BFDA30021902C /* Build configuration list for PBXProject "TongjiBusHeiHei" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D89CF0EA1B3BFDA40021902C /* Debug */,
+				D89CF0EB1B3BFDA40021902C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D89CF0EC1B3BFDA40021902C /* Build configuration list for PBXNativeTarget "TongjiBusHeiHei" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D89CF0ED1B3BFDA40021902C /* Debug */,
+				D89CF0EE1B3BFDA40021902C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D89CF0EF1B3BFDA40021902C /* Build configuration list for PBXNativeTarget "TongjiBusHeiHeiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D89CF0F01B3BFDA40021902C /* Debug */,
+				D89CF0F11B3BFDA40021902C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D89CF0C11B3BFDA30021902C /* Project object */;
+}
