@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF4E0413510E4C828DB43A49 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52E0F744EAA8FCADFF91C412 /* libPods.a */; };
+		D80867531B6E0E2500AAC9B7 /* TJBusClient.m in Sources */ = {isa = PBXBuildFile; fileRef = D80867521B6E0E2500AAC9B7 /* TJBusClient.m */; };
+		D80867561B6E152200AAC9B7 /* RouteTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D80867551B6E152200AAC9B7 /* RouteTableViewController.m */; };
+		D80867591B6E159200AAC9B7 /* TJBRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = D80867581B6E159200AAC9B7 /* TJBRoute.m */; };
+		D808675C1B6E196200AAC9B7 /* TimeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D808675B1B6E196200AAC9B7 /* TimeTableViewController.m */; };
+		D80867621B6E1BB700AAC9B7 /* TJBTime.m in Sources */ = {isa = PBXBuildFile; fileRef = D80867611B6E1BB700AAC9B7 /* TJBTime.m */; };
+		D80867651B6E2B6400AAC9B7 /* LoginTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D80867641B6E2B6400AAC9B7 /* LoginTableViewController.m */; };
+		D80867681B6E2E4100AAC9B7 /* HomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D80867671B6E2E4100AAC9B7 /* HomeTableViewController.m */; };
+		D808676B1B6E3E6A00AAC9B7 /* CustomTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D808676A1B6E3E6A00AAC9B7 /* CustomTableViewController.m */; };
 		D89CF0CF1B3BFDA30021902C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D89CF0CE1B3BFDA30021902C /* main.m */; };
 		D89CF0D21B3BFDA30021902C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D89CF0D11B3BFDA30021902C /* AppDelegate.m */; };
 		D89CF0D51B3BFDA30021902C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D89CF0D41B3BFDA30021902C /* ViewController.m */; };
@@ -28,6 +37,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		52E0F744EAA8FCADFF91C412 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BDEA80A28A33C869BC5FC12 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		ABC6CA28FAFD839F6598C766 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		D80867511B6E0E2500AAC9B7 /* TJBusClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJBusClient.h; sourceTree = "<group>"; };
+		D80867521B6E0E2500AAC9B7 /* TJBusClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJBusClient.m; sourceTree = "<group>"; };
+		D80867541B6E152200AAC9B7 /* RouteTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteTableViewController.h; sourceTree = "<group>"; };
+		D80867551B6E152200AAC9B7 /* RouteTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteTableViewController.m; sourceTree = "<group>"; };
+		D80867571B6E159200AAC9B7 /* TJBRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJBRoute.h; sourceTree = "<group>"; };
+		D80867581B6E159200AAC9B7 /* TJBRoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJBRoute.m; sourceTree = "<group>"; };
+		D808675A1B6E196200AAC9B7 /* TimeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeTableViewController.h; sourceTree = "<group>"; };
+		D808675B1B6E196200AAC9B7 /* TimeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeTableViewController.m; sourceTree = "<group>"; };
+		D80867601B6E1BB700AAC9B7 /* TJBTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJBTime.h; sourceTree = "<group>"; };
+		D80867611B6E1BB700AAC9B7 /* TJBTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJBTime.m; sourceTree = "<group>"; };
+		D80867631B6E2B6400AAC9B7 /* LoginTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginTableViewController.h; sourceTree = "<group>"; };
+		D80867641B6E2B6400AAC9B7 /* LoginTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginTableViewController.m; sourceTree = "<group>"; };
+		D80867661B6E2E4100AAC9B7 /* HomeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewController.h; sourceTree = "<group>"; };
+		D80867671B6E2E4100AAC9B7 /* HomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewController.m; sourceTree = "<group>"; };
+		D80867691B6E3E6A00AAC9B7 /* CustomTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewController.h; sourceTree = "<group>"; };
+		D808676A1B6E3E6A00AAC9B7 /* CustomTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewController.m; sourceTree = "<group>"; };
 		D89CF0C91B3BFDA30021902C /* TongjiBusHeiHei.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TongjiBusHeiHei.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D89CF0CD1B3BFDA30021902C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D89CF0CE1B3BFDA30021902C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -50,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF4E0413510E4C828DB43A49 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,12 +92,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		016565F8868C8E20523A9616 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8BDEA80A28A33C869BC5FC12 /* Pods.debug.xcconfig */,
+				ABC6CA28FAFD839F6598C766 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6DE9A051C02ADD614528C437 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52E0F744EAA8FCADFF91C412 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D89CF0C01B3BFDA30021902C = {
 			isa = PBXGroup;
 			children = (
 				D89CF0CB1B3BFDA30021902C /* TongjiBusHeiHei */,
 				D89CF0E51B3BFDA40021902C /* TongjiBusHeiHeiTests */,
 				D89CF0CA1B3BFDA30021902C /* Products */,
+				016565F8868C8E20523A9616 /* Pods */,
+				6DE9A051C02ADD614528C437 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,10 +134,26 @@
 			children = (
 				D89CF0D01B3BFDA30021902C /* AppDelegate.h */,
 				D89CF0D11B3BFDA30021902C /* AppDelegate.m */,
+				D80867511B6E0E2500AAC9B7 /* TJBusClient.h */,
+				D80867521B6E0E2500AAC9B7 /* TJBusClient.m */,
+				D80867571B6E159200AAC9B7 /* TJBRoute.h */,
+				D80867581B6E159200AAC9B7 /* TJBRoute.m */,
+				D80867601B6E1BB700AAC9B7 /* TJBTime.h */,
+				D80867611B6E1BB700AAC9B7 /* TJBTime.m */,
 				D89CF0D31B3BFDA30021902C /* ViewController.h */,
 				D89CF0D41B3BFDA30021902C /* ViewController.m */,
 				D8ABA7751B5B983200CBAEC6 /* TicketViewController.h */,
 				D8ABA7761B5B983200CBAEC6 /* TicketViewController.m */,
+				D80867541B6E152200AAC9B7 /* RouteTableViewController.h */,
+				D80867551B6E152200AAC9B7 /* RouteTableViewController.m */,
+				D808675A1B6E196200AAC9B7 /* TimeTableViewController.h */,
+				D808675B1B6E196200AAC9B7 /* TimeTableViewController.m */,
+				D80867631B6E2B6400AAC9B7 /* LoginTableViewController.h */,
+				D80867641B6E2B6400AAC9B7 /* LoginTableViewController.m */,
+				D80867661B6E2E4100AAC9B7 /* HomeTableViewController.h */,
+				D80867671B6E2E4100AAC9B7 /* HomeTableViewController.m */,
+				D80867691B6E3E6A00AAC9B7 /* CustomTableViewController.h */,
+				D808676A1B6E3E6A00AAC9B7 /* CustomTableViewController.m */,
 				D89CF0D61B3BFDA40021902C /* Main.storyboard */,
 				D89CF0D91B3BFDA40021902C /* Images.xcassets */,
 				D89CF0DB1B3BFDA40021902C /* LaunchScreen.xib */,
@@ -131,9 +195,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D89CF0EC1B3BFDA40021902C /* Build configuration list for PBXNativeTarget "TongjiBusHeiHei" */;
 			buildPhases = (
+				1839E0BE5D35E8F6046D1D4A /* Check Pods Manifest.lock */,
 				D89CF0C51B3BFDA30021902C /* Sources */,
 				D89CF0C61B3BFDA30021902C /* Frameworks */,
 				D89CF0C71B3BFDA30021902C /* Resources */,
+				301872114CE931F4DDF7CFF6 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -219,15 +285,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1839E0BE5D35E8F6046D1D4A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		301872114CE931F4DDF7CFF6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D89CF0C51B3BFDA30021902C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D8ABA7771B5B983200CBAEC6 /* TicketViewController.m in Sources */,
+				D80867651B6E2B6400AAC9B7 /* LoginTableViewController.m in Sources */,
+				D80867591B6E159200AAC9B7 /* TJBRoute.m in Sources */,
+				D808675C1B6E196200AAC9B7 /* TimeTableViewController.m in Sources */,
+				D808676B1B6E3E6A00AAC9B7 /* CustomTableViewController.m in Sources */,
+				D80867561B6E152200AAC9B7 /* RouteTableViewController.m in Sources */,
+				D80867621B6E1BB700AAC9B7 /* TJBTime.m in Sources */,
 				D89CF0D51B3BFDA30021902C /* ViewController.m in Sources */,
+				D80867531B6E0E2500AAC9B7 /* TJBusClient.m in Sources */,
 				D89CF0D21B3BFDA30021902C /* AppDelegate.m in Sources */,
 				D89CF0CF1B3BFDA30021902C /* main.m in Sources */,
+				D80867681B6E2E4100AAC9B7 /* HomeTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +458,7 @@
 		};
 		D89CF0ED1B3BFDA40021902C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BDEA80A28A33C869BC5FC12 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TongjiBusHeiHei/Info.plist;
@@ -361,6 +469,7 @@
 		};
 		D89CF0EE1B3BFDA40021902C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABC6CA28FAFD839F6598C766 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TongjiBusHeiHei/Info.plist;

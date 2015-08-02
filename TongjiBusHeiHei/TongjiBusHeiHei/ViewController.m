@@ -25,6 +25,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+
     [self configureTextField];
 }
 
@@ -38,7 +39,7 @@
     vc.name = self.nameLabel.text;
     vc.identity = self.identityLabel.text;
     vc.date = self.dateTextField.text;
-    vc.isFromJiading = [self.routeTextField.text isEqualToString:@"嘉定"] ? YES : NO;
+//    vc.isFromJiading = [self.routeTextField.text isEqualToString:@"嘉定"] ? YES : NO;
     vc.detail = self.detailTextField.text;
     [self presentViewController:vc animated:YES completion:nil];
     

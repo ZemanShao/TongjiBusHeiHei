@@ -75,11 +75,25 @@
     self.nameLabel.text = self.name;
     self.identityLabel.text = self.identity;
 
-    self.dateLabel.text = self.date;
-    self.fromLabel.text = self.isFromJiading ? @"嘉定" : @"四平";
-    self.toLabel.text = self.isFromJiading ? @"四平" : @"嘉定";
+    self.dateLabel.text = [NSString stringWithFormat:@"%@ %@",self.date,self.time];
+    self.fromLabel.text = self.from;
+    self.toLabel.text = self.to;
     self.detailLabel.text = self.detail;
-    self.imageView.image = self.isFromJiading ? [UIImage imageNamed:@"jiading"] : [UIImage imageNamed:@"benbu"];
+    if ([self.from isEqualToString:@"嘉定"]) {
+        self.imageView.image = [UIImage imageNamed:@"jiading"];
+    }
+    else if([self.from isEqualToString:@"四平"]){
+        self.imageView.image = [UIImage imageNamed:@"siping"];
+    }
+    else if([self.from isEqualToString:@"沪西"]){
+        self.imageView.image = [UIImage imageNamed:@"huxi"];
+    }
+    else if([self.from isEqualToString:@"曹杨"]){
+        self.imageView.image = [UIImage imageNamed:@"caoyang"];
+    }
+    else if([self.from isEqualToString:@"同济"]){
+        self.imageView.image = [UIImage imageNamed:@"beiyuan"];
+    }
     
 }
 
