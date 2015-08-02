@@ -28,10 +28,26 @@
     [super viewDidLoad];
     [self configureContent];
     [self configureProgressView];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(applicationWillEnterForeground) name:UIApplicationWillEnterForegroundNotification object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(applicationDidEnterBackground) name:UIApplicationDidEnterBackgroundNotification object:nil];
     
 }
 
 - (void)viewDidAppear:(BOOL)animated{
+    [self addAnimation];
+}
+
+- (void)applicationWillEnterForeground{
+    [self addAnimation];
+}
+
+- (void)applicationDidEnterBackground{
+    [self.view.layer removeAllAnimations];
+    self.trackImageView.frame = CGRectMake(83, 182, 10, 9);
+    self.carImageView.frame = CGRectMake(77, 142, 47, 32);
+}
+
+- (void)addAnimation{
     [UIView animateWithDuration:10.0
                           delay:0
                         options:UIViewAnimationOptionRepeat | UIViewAnimationOptionCurveLinear
@@ -45,6 +61,7 @@
                      }
      ];
 }
+
 
 - (void)configureProgressView{
     
